@@ -85,6 +85,7 @@ function submitFile(fileInput) {
     headers: myHeaders,
     body: formdata,
     redirect: "follow",
+    mode:"no-cors",
   };
 
   fetch(
